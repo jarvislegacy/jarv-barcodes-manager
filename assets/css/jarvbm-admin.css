@@ -1,0 +1,65 @@
+/* ======== JARV Barcodes Manager Admin ======== */
+
+.jarvbm-wrap {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+
+.jarvbm-title {
+    font-size: 24px;
+    margin-bottom: 5px;
+    font-weight: 600;
+    color: #1d2327;
+}
+
+.jarvbm-subtitle {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+/* Tabs */
+.jarvbm-tabs {
+    margin-bottom: 20px;
+}
+
+.jarvbm-tabs .nav-tab {
+    font-size: 14px;
+    font-weight: 500;
+    padding: 10px 15px;
+    border-radius: 6px 6px 0 0;
+}
+
+.jarvbm-tabs .nav-tab-active {
+    background: #007cba;
+    color: #fff;
+}
+
+/* Tab panels */
+.jarvbm-tab-panel {
+    display: none;
+    border: 1px solid #ddd;
+    border-top: none;
+    padding: 20px;
+    border-radius: 0 0 8px 8px;
+}
+
+.jarvbm-tab-panel.active {
+    display: block;
+}
+
+/* Forms */
+#jarvbm-generate-form table.form-table th {
+    width: 180px;
+}
+
+#jarvbm-generate-form input[type="text"],
+#jarvbm-generate-form select {
+    width: 250px;
+}
+
+#jarvbm-generate-form .submit {
+    margin-top: 15px;
+}
